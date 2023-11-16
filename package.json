@@ -1,0 +1,20 @@
+{
+  "name": "slash-mint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gorillapool/js-junglebus": "^0.4.1",
+    "axios": "^1.6.0",
+    "bsv-wasm": "^2.0.2",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^11.11.0",
+    "js-1sat-ord": "^0.0.34"
+  }
+}
