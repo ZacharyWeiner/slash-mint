@@ -14,8 +14,8 @@ const {PrivateKey, P2PKHAddress} = require('bsv-wasm');
 const path = require('path');
 const paymentWif = process.env.PAYMENT_PRIVATE_KEY;
 const paymentPk = PrivateKey.from_wif(paymentWif);
-const changeAddress = "1L7k1BmPHVLdPFieTpzbpzvrb1JjsCVTrr";
-const ordinalDestinationAddress  = "1EPpfs5kh84BZzdwKVnFxyjgWNU8ofqoBy";
+const changeAddress = process.env.PAYMENT_CHANGE_ADDRESS;
+//const ordinalDestinationAddress  = "1EPpfs5kh84BZzdwKVnFxyjgWNU8ofqoBy";
 const triggerText = "/mint"
 let isRunning = false;
 
