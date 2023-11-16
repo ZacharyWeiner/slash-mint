@@ -1,4 +1,6 @@
-# Bitcoin Lock Tracker and Ordinal Minting Node.js Application
+# SLASH MINT
+
+## Indexing and responding to Locks with Context
 
 ## Overview
 This Node.js application subscribes to JungleBus to monitor new "Lock" records on the Bitcoin network. It stores these records in a Firebase database and can mint an Ordinal (a unique type of digital artifact on the Bitcoin blockchain) in response to specific slash-command messages associated with a lock.
