@@ -130,7 +130,7 @@ const onPublish = async function(tx) {
 (async () => {
     try {
         await client.Subscribe(
-            "c239392d594beb0fd8329c3fc079ca7d6eadea08ccec043527513090666b0eb4",
+            "",
             817415,
             onPublish,
             onStatus,
